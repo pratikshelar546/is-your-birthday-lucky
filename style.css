@@ -1,0 +1,41 @@
+:root{
+    --background-color:#d946ef;
+
+}
+body{
+   margin: 0;
+   background-color:var(--background-color);
+   
+}
+.container{
+
+text-align: center;
+}
+.luckyno{
+   padding: 0.7rem;
+   outline: none;
+   border: 1px solid gray;
+   border-radius: 20px;
+    margin: auto;
+    display: flex;
+  
+}
+.button{
+    outline: none;
+   border: 1px solid gray;
+   border-radius: 20px;
+   padding: 0.8rem;
+    width: 120px;
+   margin-top: 1.6rem;
+   cursor: pointer;
+   font-weight: bold;
+   font-size: large;
+}
+p{
+    font-size: larger;
+    font-weight: bolder;
+}
+.img{
+    width: 30%;
+    
+}

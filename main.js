@@ -21,9 +21,9 @@ function checkLucky(sum){
     const ans = sum % luckyNoIs;
     console.log(ans);
     if(ans === 0){
-        msg.innerText="yehh!!!Your birthdate is lucky 🎉";
+        msg.innerText="yehh!!! Your birthdate is lucky 🎉";
     }else{
-        msg.innerText="ummmm!!!Your birthdate is not lucky 😔";
+        msg.innerText="ummmm!!! Your birthdate is not lucky 😔";
     }
 }
 
